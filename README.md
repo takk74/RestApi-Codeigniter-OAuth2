@@ -20,7 +20,7 @@ ini_set('display_errors', '1');
 CREATE DATABASE tuto-api-oauth
 
 ### 6/ A l'intérieur de votre base de donnée , créer une nouvelle table employés ou toutes les données seront stockés
-```
+```sql
 CREATE TABLE employees (
     id int(11) NOT NULL AUTO_INCREMENT COMMENT 'Primary Key',
     name varchar(100) NOT NULL COMMENT 'Name',
